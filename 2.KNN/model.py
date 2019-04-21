@@ -159,8 +159,8 @@ class KDTree:
 
 if __name__ == '__main__':
     data = [[1, 2], [2, 8], [3, 4], [4, 7], [2, 6], [6, 22], [7, 8]]
-    kdtree = KDTree(data)
 
+    kdtree = KDTree(data)
     distance, point = kdtree.findNN([1,1], 3)
     print('----> distance: ', distance)
     print('----> point: ', point)
